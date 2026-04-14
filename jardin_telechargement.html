@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Mon Jardin - Téléchargement</title>
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font-family: Georgia, serif; background: linear-gradient(160deg, #1a4a1a 0%, #2d6a2d 40%, #4a8c3f 70%, #6aab5a 100%); min-height: 100vh; padding: 40px 20px; }
+.contenu { max-width: 700px; margin: 0 auto; }
+.retour { color: #c8f0a0; text-decoration: none; font-size: 15px; display: inline-block; margin-bottom: 24px; font-style: italic; }
+.retour:hover { color: #f0ffe0; }
+h1 { font-size: 36px; color: #f0ffe0; text-shadow: 2px 2px 8px rgba(0,0,0,0.5); margin-bottom: 8px; font-style: italic; text-align: center; }
+.sous-titre { color: #c8f0a0; text-align: center; font-style: italic; margin-bottom: 32px; font-size: 16px; }
+.section { background: rgba(255,255,255,0.12); border: 1px solid rgba(255,255,255,0.25); border-radius: 16px; padding: 28px 32px; margin-bottom: 24px; color: #f0ffe0; }
+.section h2 { font-size: 22px; color: #c8f0a0; margin-bottom: 16px; border-bottom: 1px solid rgba(255,255,255,0.2); padding-bottom: 8px; }
+.section p { font-size: 15px; line-height: 1.9; color: #e8f8d0; margin-bottom: 10px; }
+.section ul { padding-left: 20px; }
+.section ul li { font-size: 15px; line-height: 2; color: #e8f8d0; }
+.telechargements { display: flex; gap: 16px; flex-wrap: wrap; justify-content: center; margin-top: 8px; }
+.btn-dl { display: flex; align-items: center; gap: 10px; background: rgba(255,255,255,0.15); border: 2px solid #c8f0a0; border-radius: 32px; padding: 14px 28px; color: #f0ffe0; font-size: 16px; font-family: Georgia, serif; text-decoration: none; transition: all 0.2s; }
+.btn-dl:hover { background: rgba(255,255,255,0.25); transform: scale(1.03); }
+.btn-dl .icone { font-size: 22px; }
+.btn-guide { display: block; text-align: center; background: #4a8c3f; border: 2px solid #c8f0a0; border-radius: 32px; padding: 14px 40px; color: #f0ffe0; font-size: 17px; font-family: Georgia, serif; text-decoration: none; font-style: italic; margin-top: 16px; }
+.btn-guide:hover { background: #6aab5a; }
+</style>
+</head>
+<body>
+<div class="contenu">
+  <a class="retour" href="index_jardin.html">← Retour à l'accueil</a>
+  <h1>Mon Jardin</h1>
+  <p class="sous-titre">Présentation et téléchargement</p>
+
+  <div class="section">
+    <h2>Qu'est-ce que Mon Jardin ?</h2>
+    <p>Mon Jardin est un logiciel complet de jardinage, conçu pour aider tous les jardiniers — débutants ou confirmés — à organiser et gérer leur jardin facilement.</p>
+  </div>
+
+  <div class="section">
+    <h2>Fonctionnalités principales</h2>
+    <ul>
+      <li>🌱 Gestion des plantes et fiches détaillées</li>
+      <li>🌙 Calendrier lunaire pour optimiser vos plantations</li>
+      <li>📋 Suivi des cultures et archives</li>
+      <li>🗺️ Implantation et gestion des parcelles du jardin</li>
+      <li>📓 Agenda personnel de jardinage</li>
+      <li>🌿 Conseils saisonniers et associations de plantes</li>
+      <li>📚 Bibliothèque de plantes et de fleurs</li>
+    </ul>
+  </div>
+
+  <div class="section">
+    <h2>Comment implanter son jardin ?</h2>
+    <p>Découvrez le guide complet pas à pas avec des captures d'écran du logiciel pour comprendre comment dessiner votre jardin, créer vos parcelles et gérer vos plantations.</p>
+    <a class="btn-guide" href="jardin_implantation.html">Voir le guide d'implantation →</a>
+  </div>
+
+  <div class="section">
+    <h2>Télécharger Mon Jardin</h2>
+    <p style="margin-bottom:20px">Choisissez la version correspondant à votre ordinateur :</p>
+    <div class="telechargements">
+      <a class="btn-dl" href="https://gilbdertprvt.itch.io/mon-jardin" target="_blank">
+        <span class="icone">🍎</span> Version Mac
+      </a>
+      <a class="btn-dl" href="https://gilbdertprvt.itch.io/mon-jardin" target="_blank">
+        <span class="icone">🪟</span> Version Windows
+      </a>
+    </div>
+  </div>
+
+</div>
+</body>
+</html>
